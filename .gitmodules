@@ -1,0 +1,3 @@
+[submodule "dbx-career-framework"]
+	path = dbx-career-framework
+	url = https://github.com/dropbox/dbx-career-framework.git
