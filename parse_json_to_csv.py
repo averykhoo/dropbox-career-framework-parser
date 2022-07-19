@@ -14,7 +14,7 @@ HEADERS = [
     'Area',
     'Competency',
     'Definition',
-    'Behaviors',
+    'Behavior',
 ]
 
 
@@ -53,17 +53,19 @@ def convert_json_to_rows(json_path):
             else:
                 definition = ''
 
-            behaviors = '\n'.join(f'{i + 1}) {x}' for i, x in enumerate(behaviors.split('\n')))
-
-            yield [
-                track,
-                level,
-                title,
-                area,
-                competency,
-                definition,
-                behaviors,
-            ]
+            # behaviors = '\n'.join(f'{i + 1}) {x}' for i, x in enumerate(behaviors.split('\n')))
+            for behavior in behaviors.split('\n'):
+                behavior = behavior.strip()
+                if behavior:
+                    yield [
+                        track,
+                        level,
+                        title,
+                        area,
+                        competency,
+                        definition,
+                        behavior,
+                    ]
 
 
 if __name__ == '__main__':
