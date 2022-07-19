@@ -1,9 +1,12 @@
 import csv
 import json
 
+import pandas as pd
+
 from parse_html_to_json import OUTPUT_DIR as JSON_DIR
 
 OUTPUT_PATH = JSON_DIR.parent / 'output_csv' / 'collated.csv'
+OUTPUT_XLSX = OUTPUT_PATH.parent / f'{OUTPUT_PATH.stem}.xlsx'
 HEADERS = [
     'Track',
     'Level',
@@ -50,6 +53,8 @@ def convert_json_to_rows(json_path):
             else:
                 definition = ''
 
+            behaviors = '\n'.join(f'{i + 1}) {x}' for i, x in enumerate(behaviors.split('\n')))
+
             yield [
                 track,
                 level,
@@ -70,3 +75,6 @@ if __name__ == '__main__':
 
         for path in JSON_DIR.glob('**/*.json'):
             c.writerows(convert_json_to_rows(path))
+
+    df = pd.read_csv(OUTPUT_PATH, encoding='utf8')
+    df.to_excel(OUTPUT_XLSX, index=False)
