@@ -40,11 +40,13 @@ def parse_html(html):
 
     out = dict()
 
-    # the first header is implicitly 'description'
-    section_header = 'description'
+    # the first section is implicitly core responsibilities
+    section_header = 'Core'
 
-    # get title and description
-    out['title'] = [doc_content.find(id='doc-title').text]
+    # get level, title, and description of core responsibilities
+    level, title = get_text(doc_content.find(id='doc-title')).split(' ', 1)
+    out['Level'] = level
+    out['Title'] = title
     out[section_header] = [get_text(doc_content.find('section', recursive=False))]
 
     # remaining page sections
@@ -83,8 +85,7 @@ def parse_html(html):
         out.setdefault(section_header, []).append(get_text(section))
 
     # transpose the description table and add headers for consistency
-    out['description'][1] = [['{...} of Responsibility', 'Key Behaviors']] + \
-                            [list(row) for row in zip(*out['description'][1])]
+    out['Core'][1] = [['{...} of Responsibility', 'Key Behaviors']] + [list(row) for row in zip(*out['Core'][1])]
 
     return out
 
