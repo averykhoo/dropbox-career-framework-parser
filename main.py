@@ -3,12 +3,34 @@ from pathlib import Path
 
 import bs4
 
-OUTPUT_DIR = Path('out')
+OUTPUT_DIR = Path('output_json')
 DOCS_DIR = Path('./dbx-career-framework/docs')
 
+SUFFIX_FOLDERS = {
+    'software_engineer':          'Software Engineer (SWE)',
+    'quality_assurance_engineer': 'Quality Assurance Engineer (QAE)',
+    'reliability_engineer':       'Reliability Engineer (SRE)',
+    'machine_learning_engineer':  'Machine Learning Engineer (MLE)',
+    'security_engineer':          'Security Engineer (SE)',
+    'technical_program_manager':  'Technical Program Manager (TPM)',
+    'engineering_manager':        'Engineering Manager (EM)',
+    'engineering_director':       'Engineering Manager (EM)',
+}
 
-def clean_text(text):
-    return text.replace('\xA0', ' ').strip()
+
+def get_text(tag):
+    # convert emoji images to text
+    for emoji_tag in tag.find_all('img', attrs={'data-emoji-ch': lambda x: x and len(x) == 1}):
+        emoji_tag.replace_with(emoji_tag['data-emoji-ch'])
+
+    # get text
+    text = tag.text
+
+    # clean text
+    text = text.replace('\xA0', ' ')
+    text = text.strip()
+
+    return text
 
 
 def parse_html(html):
@@ -22,8 +44,8 @@ def parse_html(html):
     section_header = 'description'
 
     # get title and description
-    out['title'] = doc_content.find(id='doc-title').text
-    out[section_header] = [clean_text(doc_content.find('section', recursive=False).text)]
+    out['title'] = [doc_content.find(id='doc-title').text]
+    out[section_header] = [get_text(doc_content.find('section', recursive=False))]
 
     # remaining page sections
     page_sections = doc_content.find_all('div',
@@ -39,7 +61,7 @@ def parse_html(html):
         # section header
         header_tag = section.find('h2')
         if header_tag is not None:
-            section_header = header_tag.text
+            section_header = get_text(header_tag)
             continue
 
         # table
@@ -51,21 +73,23 @@ def parse_html(html):
                 for cell in row.find_all('td'):
                     c = []
                     for ace_line in cell.find_all('div', {'class': 'ace-line'}):
-                        c.append(clean_text(ace_line.text))
+                        c.append(get_text(ace_line))
                     r.append('\n'.join(c))
                 t.append(r)
             out.setdefault(section_header, []).append(t)
             continue
 
         # bold line or plain text
-        out.setdefault(section_header, []).append(clean_text(section.text))
+        out.setdefault(section_header, []).append(get_text(section))
+
+    # transpose the description table and add headers for consistency
+    out['description'][1] = [['{...} of Responsibility', 'Key Behaviors']] + \
+                            [list(row) for row in zip(*out['description'][1])]
 
     return out
 
 
 if __name__ == '__main__':
-
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     # get all role files
     # sort by "ic"/"m", then role type, then level
@@ -76,6 +100,16 @@ if __name__ == '__main__':
         print(path.name)
         parsed_data = parse_html(path.read_text(encoding='utf8'))
 
+        # get folder name
+        for suffix, folder_name in SUFFIX_FOLDERS.items():
+            if path.stem.endswith(suffix):
+                break
+        else:
+            raise IndexError(path.name)
+
+        # make folder
+        (OUTPUT_DIR / folder_name).mkdir(parents=True, exist_ok=True)
+
         # output here
-        with (OUTPUT_DIR / f'{path.stem}.json').open('w', encoding='utf8') as f:
+        with (OUTPUT_DIR / folder_name / f'{path.stem}.json').open('w', encoding='utf8') as f:
             json.dump(parsed_data, f, indent=4, ensure_ascii=False)
