@@ -24,10 +24,6 @@
     ],
     [
         "I align the technical strategy for several projects in my group to broader initiatives across EPD.",
-        "Technical Strategy - I align the technical strategy for several projects in my group to broader initiatives across EPD"
-    ],
-    [
-        "I align the technical strategy for several projects in my group to broader initiatives across EPD.",
         "Technical Strategy - I align the technical strategy for several projects in my group to broader initiatives across EPD",
         "Technical Strategy - I align the technical strategy for several projects in the engineering org to broader initiatives across EPD"
     ],
@@ -47,10 +43,6 @@
     [
         "I am able to read and navigate through a large code base and effectively debug others’ code.",
         "I’m able to read and navigate through a large code base and effectively debug others’ code"
-    ],
-    [
-        "I am able to represent my team’s technical challenges to potential candidates in a compelling way (e.g. 1:1 sell chats, blog posts, public speaking)",
-        "I am an effective partner to my manager and am able to represent my team’s technical challenges to candidates in an exciting way (e.g. 1:1 sell chats, blog posts, public speaking)"
     ],
     [
         "I am able to represent my team’s technical challenges to potential candidates in a compelling way (e.g. 1:1 sell chats, blog posts, public speaking)",
@@ -80,10 +72,6 @@
         "I am an active participant in the hiring process for senior candidates (for example, by participating in hiring committee, debriefs, etc.)"
     ],
     [
-        "I am an effective partner to my manager and am able to represent my team’s technical challenges to candidates in an exciting way (e.g. 1:1 sell chats, blog posts, public speaking)",
-        "I am an effective partner to my manager and am able to represent my team’s technical challenges to candidates in an exciting way (e.g. 1:1 selling, blog posts, public speaking)"
-    ],
-    [
         "I am an expert at executing on open-ended problems that require difficult prioritization and technical innovation to meet user and business needs.",
         "I am proficient at executing on open-ended problems that require difficult prioritization and technical innovation to meet user and business needs."
     ],
@@ -100,10 +88,6 @@
     [
         "I am beginning to push boundaries to generate and implement ideas that aim to drive our products and tools forward",
         "I push boundaries to generate and implement breakthrough ideas that aim to create new products or advance existing products and drive our tools forward",
-        "I push boundaries to generate and implement breakthrough ideas that aim to drive our products and tools forward"
-    ],
-    [
-        "I am beginning to push boundaries to generate and implement ideas that aim to drive our products and tools forward",
         "I push boundaries to generate and implement breakthrough ideas that aim to drive our products and tools forward"
     ],
     [
@@ -127,10 +111,6 @@
     [
         "I am fully accountable for delivering results against a portfolio of strategic objectives directly supporting company or EPD level business objectives over a two to three year time horizon.",
         "I am fully accountable for delivering results against a strategic objective directly supporting a company or EPD level business objective over a one to two year time horizon."
-    ],
-    [
-        "I am increasingly mastering my craft and learning when to hone and apply some of a broad array of talents utilized by security engineers to solve a security problem.",
-        "I continue to master my craft, and effectively choose when to hone and apply a broad array of skills utilized by security engineers to solve a security problem."
     ],
     [
         "I am increasingly mastering my craft and learning when to hone and apply some of a broad array of talents utilized by security engineers to solve a security problem.",
@@ -185,14 +165,6 @@
     ],
     [
         "I can navigate through a full stack application (client/load-balancer/frontend/backend/DB) and build proficiency on the right tools to dig into the system issues at different levels.",
-        "I can navigate through full stack application and build proficiency on the right tools to dig deep into the system issues."
-    ],
-    [
-        "I can navigate through a full stack application (client/load-balancer/frontend/backend/DB) and build proficiency on the right tools to dig into the system issues at different levels.",
-        "I can navigate through full stack application and build proficiency on the right tools to dig deep into the system issues.",
-        "I can navigate through full stacks and build proficiency on the right tools to dig deep into the security issues."
-    ],
-    [
         "I can navigate through full stack application and build proficiency on the right tools to dig deep into the system issues.",
         "I can navigate through full stacks and build proficiency on the right tools to dig deep into the security issues."
     ],
@@ -211,17 +183,8 @@
     [
         "I consistently influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly with high quality.",
         "I increasingly influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly.",
-        "Product Expertise - I consistently influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly with high quality."
-    ],
-    [
-        "I consistently influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly with high quality.",
-        "I increasingly influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly.",
         "Product Expertise - I consistently influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly with high quality.",
         "Product Expertise - I increasingly influence or make product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly."
-    ],
-    [
-        "I continue to master my craft, and effectively choose when to hone and apply a broad array of skills utilized by security engineers to solve a security problem.",
-        "I have mastered all key areas of my craft relevant to the problems I’m working on, and effectively choose when to draw from broad array of skills utilized by security engineers to solve a security problem."
     ],
     [
         "I contribute to a positive sense of community on the team (e.g. engage in team lunches, team offsites, and other group activities, help with new-hire on-boarding)",
@@ -360,11 +323,6 @@
         "I support the growth of my teammates by taking into account their skills, backgrounds and working styles"
     ],
     [
-        "I increasingly influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly.",
-        "Product Expertise - I consistently influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly with high quality.",
-        "Product Expertise - I increasingly influence or make product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly."
-    ],
-    [
         "I increasingly optimize beyond just my team by driving cross-team or cross-discipline initiatives",
         "I increasingly optimize beyond just my team by driving cross-team or cross-discipline initiatives."
     ],
@@ -438,10 +396,6 @@
     [
         "I proactively identify issues with technical dependencies of my project that are owned by other teams and surface them",
         "I proactively identify issues with technical dependencies of my project that are owned by other teams and surface them."
-    ],
-    [
-        "I push boundaries to generate and implement breakthrough ideas that aim to create new products or advance existing products and drive our tools forward",
-        "I push boundaries to generate and implement breakthrough ideas that aim to drive our products and tools forward"
     ],
     [
         "I rally my organization around those choices by providing a clear rationale and technical vision backing them",
@@ -520,14 +474,6 @@
     ],
     [
         "I work primarily within the scope of my team I collaborate with peers and seek high level guidance from my manager/TL.",
-        "I work primarily within the scope of my team with high level guidance from my manager/TL"
-    ],
-    [
-        "I work primarily within the scope of my team I collaborate with peers and seek high level guidance from my manager/TL.",
-        "I work primarily within the scope of my team with high level guidance from my manager/TL",
-        "I work within the scope of my team with specific guidance from my manager/TL"
-    ],
-    [
         "I work primarily within the scope of my team with high level guidance from my manager/TL",
         "I work within the scope of my team with specific guidance from my manager/TL"
     ],
@@ -552,17 +498,8 @@
         "My work demonstrates significant domain expertise in three or more security domains and secondary specializations, (e.g. infrastructure security, application security, threat intelligence, security operations, incident response, endpoint security, or identity management)."
     ],
     [
-        "Technical Strategy - I align the technical strategy for several projects in my group to broader initiatives across EPD",
-        "Technical Strategy - I align the technical strategy for several projects in the engineering org to broader initiatives across EPD"
-    ],
-    [
         "The expectations for architecture design do not go up beyond L6.",
         "The expectations for code fluency do not go up beyond L3.",
-        "The expectations for software design do not go up beyond L5.",
-        "The expectations for systems design do not go up beyond L6."
-    ],
-    [
-        "The expectations for architecture design do not go up beyond L6.",
         "The expectations for software design do not go up beyond L5.",
         "The expectations for systems design do not go up beyond L6."
     ],
@@ -574,10 +511,6 @@
         "The expectations for systems fluency do not go up beyond L5 (though some specialist engineers may go deep in this area).",
         "The expectations for technology fluency do not go up beyond L4 (though some specialist engineers may go deep in one or more areas)",
         "The expectations for threat fluency do not go up beyond L5 (though some specialist engineers may go deep in one or more areas)"
-    ],
-    [
-        "The expectations for code fluency do not go up beyond L3.",
-        "The expectations for software design do not go up beyond L5."
     ],
     [
         "When I become aware of any lapse in my team’s culture, I communicate and follow through on plans to correct and prevent recurrence of the lapse.",
