@@ -1,5 +1,6 @@
 import csv
 import json
+import re
 
 import pandas as pd
 
@@ -55,17 +56,25 @@ def convert_json_to_rows(json_path):
 
             # behaviors = '\n'.join(f'{i + 1}) {x}' for i, x in enumerate(behaviors.split('\n')))
             for behavior in behaviors.split('\n'):
-                behavior = behavior.strip()
-                if behavior:
-                    yield [
-                        track,
-                        level,
-                        title,
-                        area,
-                        competency,
-                        definition,
-                        behavior,
-                    ]
+
+                # split sentences decently well enough for the data we have here
+                behavior = re.sub(r'\.\s+([A-Z])', r'.\n\1', behavior)
+                behavior = behavior.replace('e.g.\n', 'e.g. ')
+                behavior = behavior.replace('vs.\n', 'vs. ')
+
+                # one row per sentence
+                for sub_behavior in behavior.split('\n'):
+                    sub_behavior = ' '.join(sub_behavior.split())
+                    if behavior:
+                        yield [
+                            track,
+                            level,
+                            title,
+                            area,
+                            competency,
+                            definition,
+                            sub_behavior,
+                        ]
 
 
 if __name__ == '__main__':
@@ -80,3 +89,7 @@ if __name__ == '__main__':
 
     df = pd.read_csv(OUTPUT_PATH, encoding='utf8')
     df.to_excel(OUTPUT_XLSX, index=False)
+
+
+
+
