@@ -2,7 +2,7 @@ import json
 
 import pandas as pd
 
-from find_replace_trie import Trie
+from nmd_index import ApproxWordList5
 from parse_json_to_csv import OUTPUT_PATH as CSV_PATH
 
 if __name__ == '__main__':
@@ -23,12 +23,15 @@ if __name__ == '__main__':
 
     # build a lookup data structure
     behaviors = sorted(casefold_dedupe.keys())
-    t = Trie.fromkeys(behaviors, case_sensitive=False)
+    lookup_table = ApproxWordList5((2, 3, 4,))
+    for b in behaviors:
+        lookup_table.add_word(b)
 
     # find all duplicates within a fraction of each other
+    min_similarity = 0.75
     dupes = set()
     for i, b in enumerate(behaviors):
-        found = list(t.levenshtein_lookup(b, max(4, len(b) // 8)))
+        found = [f[0] for f in lookup_table.lookup(b, 20) if f[-1] >= min_similarity]
         found = tuple(sorted(original for casefolded in found for original in casefold_dedupe[casefolded]))
         if len(found) > 1:
             print(found)
