@@ -1,20 +1,44 @@
 [
     [
+        "Domain Expertise - I demonstrate a high level of depth in a particular platform or product category that brings unique business value.",
+        "I demonstrate a high level of depth in a particular platform or product category that brings unique business value."
+    ],
+    [
+        "I act as a partner to managers in setting the cultural tone for the engineering org.",
         "I act as a partner to managers in setting the cultural tone for the org.",
         "I act as a partner to managers in setting the cultural tone for the team.",
         "I act as a partner to my manager in setting the cultural tone for the team."
     ],
     [
+        "I act with urgency and deliver high-quality work that will add the most value",
+        "I act with urgency and lead my team to deliver high-quality work that will add the most value"
+    ],
+    [
         "I actively level up less-experienced members across Security by helping them with their craft, providing guidance, and leading by example.",
-        "I actively level up less-experienced members of my team by helping them with their craft, providing guidance, and leading by example."
+        "I actively level up less-experienced members of my team by helping them with their craft, providing guidance, and leading by example.",
+        "Mentorship - I actively level up less-experienced members of my team by helping them with their craft, providing guidance, and setting a good example"
     ],
     [
         "I address code tasks with both high throughput and appropriately high quality for the stage of project I am working on",
         "I address code tasks with both high throughput and appropriately high quality for the stage of project I am working on."
     ],
     [
+        "I align the technical strategy for several projects in my group to broader initiatives across EPD.",
+        "Technical Strategy - I align the technical strategy for several projects in my group to broader initiatives across EPD"
+    ],
+    [
+        "I align the technical strategy for several projects in my group to broader initiatives across EPD.",
+        "Technical Strategy - I align the technical strategy for several projects in my group to broader initiatives across EPD",
+        "Technical Strategy - I align the technical strategy for several projects in the engineering org to broader initiatives across EPD"
+    ],
+    [
         "I am able to create coherent designs with multiple components interacting across API or system boundaries; bugs do not creep in at the boundaries between components due to mismatches in expectations of what is technically feasible.",
         "I’m able to create coherent designs with multiple components interacting across API or system boundaries; bugs do not creep in at the boundaries between components due to mismatches in expectations of what is technically feasible"
+    ],
+    [
+        "I am able to decompose reliability problems or business scenarios into solutions composed of multiple software or systems components interacting with each other.",
+        "I’m able to decompose a simple problem or business scenario into a solution composed of multiple software components interacting with each other.",
+        "I’m able to decompose problems or business scenarios into solutions composed of multiple software components interacting with each other"
     ],
     [
         "I am able to masterfully guide my org to impactful outcomes in the face of significant organizational, strategic and technical ambiguity and change.",
@@ -25,12 +49,27 @@
         "I’m able to read and navigate through a large code base and effectively debug others’ code"
     ],
     [
+        "I am able to represent my team’s technical challenges to potential candidates in a compelling way (e.g. 1:1 sell chats, blog posts, public speaking)",
+        "I am an effective partner to my manager and am able to represent my team’s technical challenges to candidates in an exciting way (e.g. 1:1 sell chats, blog posts, public speaking)"
+    ],
+    [
+        "I am able to represent my team’s technical challenges to potential candidates in a compelling way (e.g. 1:1 sell chats, blog posts, public speaking)",
+        "I am an effective partner to my manager and am able to represent my team’s technical challenges to candidates in an exciting way (e.g. 1:1 sell chats, blog posts, public speaking)",
+        "I am an effective partner to my manager and am able to represent my team’s technical challenges to candidates in an exciting way (e.g. 1:1 selling, blog posts, public speaking)"
+    ],
+    [
         "I am accountable for alignment of the software and systems in my area to overall reliability strategy, making tradeoffs where appropriate in consultation with principal engineers.",
+        "I own defining the strategy for the alignment of the software and systems in my area to overall reliability strategy, making tradeoffs where appropriate in consultation with principal engineers.",
         "I’m accountable for alignment of the software and systems in my area to overall technical strategy, making tradeoffs where appropriate in consultation with principal engineers"
     ],
     [
         "I am accountable for inspection, oversight, and pruning of the portfolio of projects within my domain and hold managers reporting to me accountable for delivering the results needed by the organization",
         "I am accountable for the inspection, oversight, and pruning of the portfolio of projects within my domain and hold managers reporting to me accountable for delivering the results needed by the organization"
+    ],
+    [
+        "I am actively involved in interviewing and assessing candidates to help us build a diverse and talented team.",
+        "I am learning to interview and assess candidates to help us build a diverse and talented team.",
+        "I contribute to interviewing and assessing candidates to help us build a diverse and talented team."
     ],
     [
         "I am actively involved in interviewing and assessing executive leadership candidates.",
@@ -49,12 +88,27 @@
         "I am proficient at executing on open-ended problems that require difficult prioritization and technical innovation to meet user and business needs."
     ],
     [
+        "I am an expert in a range of ML technique (e.g., deep learning, optimization, regression, ensembles, tree based methods, dimensionality reduction, Bayesian modeling, etc.), area (CV, NLP, RL, etc.), or tool (sklearn, pytorch, tensorflow, etc.) and I select such solutions that work long-term for my team.",
+        "I am familiar with a range of ML techniques (e.g., deep learning, optimization, regression, ensembles, tree-based methods, dimensionality reduction, Bayesian modeling, etc.), areas (CV, NLP, RL, etc.), and tools (sklearn, pytorch, tensorflow, etc.) and I select a right such solution for my project.",
+        "I have a deep understanding of a range of ML techniques (e.g., deep learning, optimization, regression, ensembles, tree based methods, dimensionality reduction, Bayesian modeling, etc.), area (CV, NLP, RL, etc.), or tool (sklearn, pytorch, tensorflow, etc.) and I select an optimal solution for my projects."
+    ],
+    [
         "I am aware of my public presence and actions and my influence on the people around me and Dropbox’s culture",
         "I am aware of my public presence and actions and my influence on the people around me and Dropbox’s culture.",
         "I am aware of my public presence and actions and their influence on the people around me and Dropbox’s culture"
     ],
     [
+        "I am beginning to push boundaries to generate and implement ideas that aim to drive our products and tools forward",
+        "I push boundaries to generate and implement breakthrough ideas that aim to create new products or advance existing products and drive our tools forward",
+        "I push boundaries to generate and implement breakthrough ideas that aim to drive our products and tools forward"
+    ],
+    [
+        "I am beginning to push boundaries to generate and implement ideas that aim to drive our products and tools forward",
+        "I push boundaries to generate and implement breakthrough ideas that aim to drive our products and tools forward"
+    ],
+    [
         "I am broadly aware of the kinds of defenses and their efficacy at mitigating attacks relevant to Dropbox Security.",
+        "I am broadly aware of the kinds of defenses and their efficacy at mitigating attacks relevant to my team’s focus.",
         "I am deeply aware of the kinds of defenses and their efficacy at mitigating attacks relevant to Dropbox Security."
     ],
     [
@@ -63,11 +117,25 @@
     ],
     [
         "I am capable of owning the overall health and engineering quality of the systems in my area - e.g. surfacing reliability risks, driving regular health reviews, curating reliability strategy, etc - and ensuring that the health and maintenance of my systems do not depend on the maintainers having my expertise.",
-        "I am capable of owning the overall health and engineering quality of the systems in your area - e.g. surfacing reliability risks, driving regular health reviews, curating reliability strategy, etc - and ensuring that the health and maintenance of my systems do not depend on the maintainers having my expertise."
+        "I am capable of owning the overall health and engineering quality of the systems in your area - e.g. surfacing reliability risks, driving regular health reviews, curating reliability strategy, etc - and ensuring that the health and maintenance of my systems do not depend on the maintainers having my expertise.",
+        "I’m capable of owning the overall health and engineering quality of a system or collection of features - e.g. driving regular health reviews, curating test strategy, etc - and ensuring that the health and maintenance of my systems do not depend on the maintainers having my expertise"
     ],
     [
         "I am capable of rolling out a component or major feature (and deprecating an existing system or feature) reliably - including appropriate monitoring, paging, etc are in place, and that failure domains are understood and characterized appropriately before large scale rollout.",
         "I’m capable of rolling out a component or major feature (and deprecating an existing system or feature) reliably - including appropriate monitoring, paging, etc are in place, and that failure domains are understood and characterized appropriately before large scale rollout."
+    ],
+    [
+        "I am fully accountable for delivering results against a portfolio of strategic objectives directly supporting company or EPD level business objectives over a two to three year time horizon.",
+        "I am fully accountable for delivering results against a strategic objective directly supporting a company or EPD level business objective over a one to two year time horizon."
+    ],
+    [
+        "I am increasingly mastering my craft and learning when to hone and apply some of a broad array of talents utilized by security engineers to solve a security problem.",
+        "I continue to master my craft, and effectively choose when to hone and apply a broad array of skills utilized by security engineers to solve a security problem."
+    ],
+    [
+        "I am increasingly mastering my craft and learning when to hone and apply some of a broad array of talents utilized by security engineers to solve a security problem.",
+        "I continue to master my craft, and effectively choose when to hone and apply a broad array of skills utilized by security engineers to solve a security problem.",
+        "I have mastered all key areas of my craft relevant to the problems I’m working on, and effectively choose when to draw from broad array of skills utilized by security engineers to solve a security problem."
     ],
     [
         "I am responsible for making technical choices that have no one clearly correct answer but whose consequences have a sweeping effect across my scope in the organization",
@@ -87,12 +155,73 @@
         "I attract senior and diverse talent to Dropbox and have strong followership across the company"
     ],
     [
+        "I autonomously define and deliver technical roadmaps of larger projects, often involving cross-team dependencies.",
+        "Project Leadership - I autonomously define and deliver technical roadmaps of larger projects, often involving cross-team dependencies."
+    ],
+    [
+        "I avoid blame and solve the right problems, disagreeing and committing when necessary",
+        "I avoid blame and solve the right problems, disagreeing and committing when necessary to move critical priorities forward"
+    ],
+    [
         "I build healthy partnerships with stakeholders and teams with whom my team has long-lived relationships",
         "I build healthy partnerships with stakeholders and teams with whom my teams have long-lived relationships"
     ],
     [
+        "I build relationships across teams and help get to positive outcomes",
+        "I build relationships across teams and help them get to win-win outcomes"
+    ],
+    [
+        "I build strong relationships with candidates and can represent Dropbox's mission, strategy, and culture throughout the interview process",
+        "I gain the trust of candidates and can represent Dropbox's mission, strategy, and culture throughout the interview process",
+        "I gain the trust of candidates and can represent Dropbox's mission, strategy, and culture throughout the interview process."
+    ],
+    [
+        "I can analyze and present datasets or results of experiments while choosing the appropriate statistical methods and visualization techniques.",
+        "I can analyze and present datasets or results of experiments with statistical methods and/or visualization techniques my team may specify for me."
+    ],
+    [
+        "I can guide and grow both managers and senior ICs, helping them advance their careers by finding them highly-leveraged roles within the organization",
+        "I can guide and grow senior ICs, helping them advance their careers by finding highly-leveraged roles for them within the organization, not just my team"
+    ],
+    [
+        "I can navigate through a full stack application (client/load-balancer/frontend/backend/DB) and build proficiency on the right tools to dig into the system issues at different levels.",
+        "I can navigate through full stack application and build proficiency on the right tools to dig deep into the system issues."
+    ],
+    [
+        "I can navigate through a full stack application (client/load-balancer/frontend/backend/DB) and build proficiency on the right tools to dig into the system issues at different levels.",
+        "I can navigate through full stack application and build proficiency on the right tools to dig deep into the system issues.",
+        "I can navigate through full stacks and build proficiency on the right tools to dig deep into the security issues."
+    ],
+    [
+        "I can navigate through full stack application and build proficiency on the right tools to dig deep into the system issues.",
+        "I can navigate through full stacks and build proficiency on the right tools to dig deep into the security issues."
+    ],
+    [
+        "I can sometimes identify and explain the root cause of bugs in areas where I have domain expertise",
+        "I identify and explain the root cause of bugs in areas where I have domain expertise"
+    ],
+    [
+        "I champion a high-performance culture across the company, create an environment for continuous growth and development, and identify career opportunities for Dropboxers across teams",
+        "I champion a high-performance culture across the company, create an environment for continuous growth and development, and identify career opportunities for Dropboxers across teams ensuring they are well leveraged"
+    ],
+    [
+        "I champion community building efforts and inclusion initiatives.",
+        "I sponsor community-building efforts and inclusion initiatives"
+    ],
+    [
         "I consistently influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly with high quality.",
+        "I increasingly influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly.",
         "Product Expertise - I consistently influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly with high quality."
+    ],
+    [
+        "I consistently influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly with high quality.",
+        "I increasingly influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly.",
+        "Product Expertise - I consistently influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly with high quality.",
+        "Product Expertise - I increasingly influence or make product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly."
+    ],
+    [
+        "I continue to master my craft, and effectively choose when to hone and apply a broad array of skills utilized by security engineers to solve a security problem.",
+        "I have mastered all key areas of my craft relevant to the problems I’m working on, and effectively choose when to draw from broad array of skills utilized by security engineers to solve a security problem."
     ],
     [
         "I contribute to a positive sense of community on the team (e.g. engage in team lunches, team offsites, and other group activities, help with new-hire on-boarding)",
@@ -100,11 +229,20 @@
     ],
     [
         "I create an environment supporting experimentation and iteration",
+        "I create an environment supporting experimentation and iteration towards audacious goals.",
         "I create an environment supporting experimentation and iteration."
     ],
     [
         "I create an environment that fosters innovation and helps Dropboxers take smart risks and learn from failures",
         "I create an environment that fosters innovation and helps Dropboxers take smart risks and learn from failures."
+    ],
+    [
+        "I define and implement security solutions or efficient operational processes that level up my team.",
+        "I define technical solutions or efficient operational processes that level up my team."
+    ],
+    [
+        "I define my team's priorities and secure buy-in from partner teams with the help of my manager",
+        "I define my team's priorities and secure buy-in in partnership with my manager"
     ],
     [
         "I define the high level systems we need to build to meet strategic objectives",
@@ -131,16 +269,37 @@
         "I devote time to spreading my knowledge widely via talks, blog posts or written documentation."
     ],
     [
+        "I drive and plan testing of large, complex, cross-team projects that could span multiple quarters and often involve multiple QA engineers",
+        "I drive and plan testing of projects that could span multiple quarters, potentially across multiple teams and multiple QA Engineers"
+    ],
+    [
         "I drive the most important long-term priorities for the company that create the highest value for my customer",
         "I drive the most important priorities for the company that create the highest value for my customer"
     ],
     [
+        "I effectively teach and explain advanced Testing Fluency and Advanced Testing Strategy principles to the cross functional members of the development team, enabling them to take on this work for low-medium risk projects with minimal support",
+        "I effectively teach and explain basic Testing Strategy principles to the cross functional members of the development team, enabling them to take on this work for low risk projects with minimal support"
+    ],
+    [
         "I ensure projects are staffed appropriately to set them up for success, placing my strongest technical leaders where they are the most needed and impactful",
-        "I independently ensure projects are staffed appropriately to set them up for success, placing my strongest technical leaders where they are the most needed and impactful."
+        "I independently ensure projects are staffed appropriately to set them up for success, placing my strongest technical leaders where they are the most needed and impactful.",
+        "In consultation with my manager, I ensure projects are staffed appropriately to set them up for success, placing my strongest technical leaders where they are the most needed and impactful"
     ],
     [
         "I ensure that appropriate information is disseminated within my team.",
         "I ensure that appropriate information is disseminated within the team."
+    ],
+    [
+        "I ensure that investments are appropriately prioritized across my portfolio of projects",
+        "I ensure that investments are appropriately prioritized across my portfolio of projects and Dropbox’s business objectives"
+    ],
+    [
+        "I excel at defining the vision for and delivering large business-impacting projects with multiple constraints.",
+        "Technical Strategy - I excel at defining the vision for and delivering large business-impacting projects with multiple constraints"
+    ],
+    [
+        "I execute large projects to a very high standard — e.g. against a tight deadline with significant consequences of failure, or in a manner that allows rapid learning to clarify significant ambiguity, or to a standard of quality well exceeding that of the current system (though not all simultaneously)",
+        "I execute these large programs at a very high level, e.g. to a standard of quality well exceeding that of the current system, a tight deadline with significant consequences of failure, or in a manner that allows rapid learning to drive out significant ambiguity (though not all simultaneously)"
     ],
     [
         "I exercise judgement that favors the priorities of the wider engineering org rather than favoring locally optimal outcomes",
@@ -151,6 +310,7 @@
         "I exhibit a very high standard of technical judgement, innovation and execution to tackle open-ended problems that require difficult prioritization, defining both the what and how of things to be done."
     ],
     [
+        "I follow through on my commitments and take responsibility for my work and the work of my team",
         "I follow through on my commitments, take responsibility for my work, and deliver my work on time",
         "I follow through on my commitments, take responsibility for my work, and deliver on time"
     ],
@@ -163,12 +323,12 @@
         "I fully understand the layers of the system and appropriate tooling for each one and know when to engage peers when my own knowledge isn’t adequate in one."
     ],
     [
-        "I gain the trust of candidates and can represent Dropbox's mission, strategy, and culture throughout the interview process",
-        "I gain the trust of candidates and can represent Dropbox's mission, strategy, and culture throughout the interview process."
-    ],
-    [
         "I have a deep understanding of attacker tools, techniques, and processes (TTPs) and an extensive array of defenses/mitigations for them.",
         "I have a deep understanding of attacker tools, techniques, and processes (TTPs) and the standard defenses/mitigations for them."
+    ],
+    [
+        "I have a holistic view of the engineering org and Dropbox’s goals and use my experience and judgment to make decisions optimized for the wider org, rather than my local project alone",
+        "I have a holistic view of the org and Dropbox’s goals that I champion, using my experience and judgment to optimize for the wider org rather than locally to my teams."
     ],
     [
         "I have a proven set of technical skills and development methodologies, and apply them with a sophisticated approach that is best suited for each project.",
@@ -176,15 +336,33 @@
     ],
     [
         "I have a sense of responsibility and obligation to act on opportunities I see across my org",
-        "I have a sense of responsibility and obligation to act on opportunities I see across the company"
+        "I have a sense of responsibility and obligation to act on opportunities I see across the company",
+        "I have a sense of responsibility and obligation to act on opportunities I see across the engineering org/company"
     ],
     [
         "I have self-awareness about my strengths and areas for development",
         "I'm gaining self-awareness about my strengths and areas for development"
     ],
     [
+        "I help my team navigate ambiguity and remain resilient through the ups and downs",
+        "I’m able to navigate ambiguity and remain resilient through ups and downs"
+    ],
+    [
+        "I help resolve security issues, respond to incidents, and eliminate or mitigate vulnerabilities as they arise.",
+        "I lead others to resolve security issues, to respond to incidents, and to eliminate or mitigate vulnerabilities as they arise."
+    ],
+    [
         "I identify and execute on significant engineering/company-wide opportunities by understanding how technical capabilities meet customer needs.",
         "I identify and execute on significant group/company-wide opportunities by understanding how technical capabilities meet customer needs."
+    ],
+    [
+        "I identify and support areas of growth for my teammates that take into account their skills, backgrounds and working styles",
+        "I support the growth of my teammates by taking into account their skills, backgrounds and working styles"
+    ],
+    [
+        "I increasingly influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly.",
+        "Product Expertise - I consistently influence product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly with high quality.",
+        "Product Expertise - I increasingly influence or make product decisions/scope and determine the right technical tradeoffs to deliver customer value quickly."
     ],
     [
         "I increasingly optimize beyond just my team by driving cross-team or cross-discipline initiatives",
@@ -196,6 +374,7 @@
         "I invest time to coach and mentor my teammates (particularly ones looking to grow into L6/L7)."
     ],
     [
+        "I know which levers to pull to drive meaningful results and consider company-wide implications of my team's work",
         "I know which levers to pull to drive meaningful results and understand the wider, cross-functional implications of my team's work",
         "I know which levers to pull to drive meaningful results and understand the wider, cross-functional implications of my work",
         "I know which levers to pull to drive meaningful results and understand the wider, cross-functional implications of my work."
@@ -229,6 +408,10 @@
         "I motivate others to bring their authentic selves everyday and contribute to building community at Dropbox"
     ],
     [
+        "I offer honest feedback that is delivered with empathy to help others learn and grow",
+        "I solicit and offer honest and constructive feedback that is delivered with empathy to help others learn and grow"
+    ],
+    [
         "I own and deliver projects in service of quarterly goals on the team",
         "I own and deliver projects in service of quarterly goals on the team."
     ],
@@ -241,8 +424,24 @@
         "Innovation - I partner with cross-functional stakeholders to identify major new business opportunities unlocked by technical capabilities."
     ],
     [
+        "I personify Dropbox's culture and values.",
+        "I shape Dropbox's culture and personify its values."
+    ],
+    [
+        "I play a key role in setting medium-to-long term strategy for business-impacting projects.",
+        "Technical Strategy - I play a key role in setting medium-to-long term strategy for business-impacting projects."
+    ],
+    [
+        "I proactively identify and advocate for opportunities to improve the current state of projects",
+        "I proactively identify new opportunities and advocate for and implement improvements to the current state of projects"
+    ],
+    [
         "I proactively identify issues with technical dependencies of my project that are owned by other teams and surface them",
         "I proactively identify issues with technical dependencies of my project that are owned by other teams and surface them."
+    ],
+    [
+        "I push boundaries to generate and implement breakthrough ideas that aim to create new products or advance existing products and drive our tools forward",
+        "I push boundaries to generate and implement breakthrough ideas that aim to drive our products and tools forward"
     ],
     [
         "I rally my organization around those choices by providing a clear rationale and technical vision backing them",
@@ -257,6 +456,12 @@
         "I remove barriers to inclusion for my team and ensure diverse perspectives are considered and included."
     ],
     [
+        "I set audacious goals for my team, encourage them to take risks, and share lessons learned",
+        "I set audacious goals, take risks, and share lessons learned"
+    ],
+    [
+        "I take a multi-year, industry-leading perspective around security concerns; ensuring they adapt to scale, usage, and/or business needs well beyond Dropbox’s current scope.",
+        "I take a multi-year, industry-leading perspective when building products and systems, ensuring they adapt to scale, usage and/or business needs well beyond Dropbox’s current scope.",
         "I take a multi-year, industry-leading perspective, ensuring that our products adapt to scale, usage, and/or business needs well beyond Dropbox’s current scope.",
         "I take a multi-year, industry-leading perspective, ensuring that our products are secure, adapt to scale, usage, and/or business needs well beyond Dropbox’s current scope."
     ],
@@ -285,16 +490,54 @@
         "I unblock myself and team by addressing and eliminating the root cause"
     ],
     [
+        "I understand OS or networks, or hardware well and can quickly debug complex issues and identify the major system bottlenecks.",
+        "I understand OS, networks, or hardware and can debug system issues and identify system bottlenecks."
+    ],
+    [
+        "I understand that technology, threats, and responses evolve and use that evolution to identify opportunities to improve security controls accordingly.",
+        "I understand that technology, threats, and responses evolve, and drive that evolution to create opportunity to improve security across Dropbox.",
+        "I understand that technology, threats, and responses evolve, and drive that evolution to improve security across the industry."
+    ],
+    [
+        "I understand the implications of decisions and adjust my approach based on the impact and risk",
+        "I understand the implications of my decisions and adjust my approach based on the impact and risk in the short and long-term"
+    ],
+    [
         "I understand the pain points of my customer and I’m able to translate them into problems my team has to solve",
         "I understand the pain points of my customer and am able to translate them into problems my team has to solve"
+    ],
+    [
+        "I understand the reasoning behind my team’s design decisions in order to implement the designs.",
+        "I understand the reasoning behind my team’s design decisions to verify and debug implementations of the designs."
+    ],
+    [
+        "I use this understanding to collaborate with my cross-functional partners, VP, and Directors to define a long-term vision for my org/EPD",
+        "I use this understanding to work with my cross-functional partners to define a long-term vision for my team or org"
+    ],
+    [
+        "I work in close partnership with senior EPD leadership to ensure a healthy engineering org.",
+        "I work in close partnership with the management team to ensure a healthy engineering org."
+    ],
+    [
+        "I work primarily within the scope of my team I collaborate with peers and seek high level guidance from my manager/TL.",
+        "I work primarily within the scope of my team with high level guidance from my manager/TL"
+    ],
+    [
+        "I work primarily within the scope of my team I collaborate with peers and seek high level guidance from my manager/TL.",
+        "I work primarily within the scope of my team with high level guidance from my manager/TL",
+        "I work within the scope of my team with specific guidance from my manager/TL"
+    ],
+    [
+        "I work primarily within the scope of my team with high level guidance from my manager/TL",
+        "I work within the scope of my team with specific guidance from my manager/TL"
     ],
     [
         "I work to elevate existing standards while coaching my other reports on how to do the same",
         "I work to elevate existing standards while coaching my reports on how to do the same"
     ],
     [
-        "I’m able to decompose a simple problem or business scenario into a solution composed of multiple software components interacting with each other.",
-        "I’m able to decompose problems or business scenarios into solutions composed of multiple software components interacting with each other"
+        "I work with my manager to manage conflict with empathy and cooperation in mind",
+        "I work with my manager to manage conflict with empathy in mind"
     ],
     [
         "I’m capable of reading and navigating functions and classes/modules that I didn’t write",
@@ -305,23 +548,40 @@
         "My code is free of glaring errors - bugs are in edge cases or design, not mainline paths - and is well documented and well tested with appropriate use of manual vs automated tests."
     ],
     [
+        "My work demonstrates deep domain expertise in one or more core security domains and secondary specializations, (e.g. infrastructure security, application security, threat intelligence, security operations, incident response, endpoint security, or identity management), sufficient to anticipate and communicate the implications of my work on adjacent fields.",
+        "My work demonstrates significant domain expertise in three or more security domains and secondary specializations, (e.g. infrastructure security, application security, threat intelligence, security operations, incident response, endpoint security, or identity management)."
+    ],
+    [
         "Technical Strategy - I align the technical strategy for several projects in my group to broader initiatives across EPD",
         "Technical Strategy - I align the technical strategy for several projects in the engineering org to broader initiatives across EPD"
+    ],
+    [
+        "The expectations for architecture design do not go up beyond L6.",
+        "The expectations for code fluency do not go up beyond L3.",
+        "The expectations for software design do not go up beyond L5.",
+        "The expectations for systems design do not go up beyond L6."
+    ],
+    [
+        "The expectations for architecture design do not go up beyond L6.",
+        "The expectations for software design do not go up beyond L5.",
+        "The expectations for systems design do not go up beyond L6."
     ],
     [
         "The expectations for code fluency do not go beyond L3 (though some specialist engineers may go deep in this area)",
         "The expectations for code fluency do not go beyond L3 (though some specialist engineers may go deep in this area).",
         "The expectations for code fluency do not go up beyond L3 (though some specialist engineers may go deep in this area)",
         "The expectations for code fluency do not go up beyond L3 (though some specialist engineers may go deep in this area).",
-        "The expectations for systems fluency do not go up beyond L5 (though some specialist engineers may go deep in this area)."
-    ],
-    [
-        "The expectations for software design do not go up beyond L5.",
-        "The expectations for systems design do not go up beyond L6."
-    ],
-    [
+        "The expectations for systems fluency do not go up beyond L5 (though some specialist engineers may go deep in this area).",
         "The expectations for technology fluency do not go up beyond L4 (though some specialist engineers may go deep in one or more areas)",
         "The expectations for threat fluency do not go up beyond L5 (though some specialist engineers may go deep in one or more areas)"
+    ],
+    [
+        "The expectations for code fluency do not go up beyond L3.",
+        "The expectations for software design do not go up beyond L5."
+    ],
+    [
+        "When I become aware of any lapse in my team’s culture, I communicate and follow through on plans to correct and prevent recurrence of the lapse.",
+        "When I become aware of any lapse in my team’s culture, I communicate and work with my leadership team follow through on plans to correct and prevent recurrence of the lapse"
     ],
     [
         "When necessary, I am able to introduce change into the organization and guide my team accordingly",
