@@ -29,10 +29,11 @@ if __name__ == '__main__':
     dupes = set()
     for i, b in enumerate(behaviors):
         found = list(t.levenshtein_lookup(b, max(4, len(b) // 8)))
+        found = tuple(sorted(original for casefolded in found for original in casefold_dedupe[casefolded]))
         if len(found) > 1:
             print(found)
-            dupes.add(tuple(sorted(original for casefolded in found for original in casefold_dedupe[casefolded])))
+            dupes.add(found)
 
     # save the data
-    with open('dupes.json', 'w') as f:
+    with open('dupes.json', 'w', encoding='utf8') as f:
         json.dump(sorted(dupes), f, indent=4, ensure_ascii=False)
