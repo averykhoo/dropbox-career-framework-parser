@@ -65,6 +65,7 @@ def convert_json_to_rows(json_path):
                 # one row per sentence
                 for sub_behavior in behavior.split('\n'):
                     sub_behavior = ' '.join(sub_behavior.split())
+                    sub_behavior = sub_behavior.rstrip('.')
                     if behavior:
                         yield [
                             track,
